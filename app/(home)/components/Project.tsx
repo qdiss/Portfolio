@@ -31,7 +31,7 @@ export default function Project() {
     {
       title: "Project 3",
       tech: [SiReact, SiHtml5, SiCss3],
-      link: "esada-sabic.vercel.app",
+      link: "https://esada-sabic.vercel.app",
       cover: "/project3.png",
       background: "bg-green-500",
     },

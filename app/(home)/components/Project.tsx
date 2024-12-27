@@ -7,6 +7,7 @@ import {
   SiCss3,
   SiHtml5,
   SiNextdotjs,
+  SiPostgresql,
   SiReact,
   SiTailwindcss,
   SiTypescript,
@@ -15,31 +16,31 @@ import {
 export default function Project() {
   const projects = [
     {
-      title: "Project 1",
-      tech: [SiNextdotjs, SiTypescript, SiTailwindcss],
-      link: "https://travel-app-liard-nine.vercel.app/",
-      cover: "/project1.PNG",
+      title: "MediBook Rezervacija Termina",
+      tech: [SiNextdotjs, SiTypescript, SiTailwindcss, SiPostgresql],
+      link: "https://medibook-pi.vercel.app/",
+      cover: "/mobile-logo.png",
       background: "bg-red-500",
     },
     {
-      title: "Project 2",
+      title: "Dalmatinske Vizure",
       tech: [SiNextdotjs, SiTypescript, SiTailwindcss],
-      link: "/",
-      cover: "/project2.PNG",
+      link: "https://dalmatinske-vizure.com",
+      cover: "/dalmatinske-vizure.png",
       background: "bg-blue-500",
     },
     {
-      title: "Project 3",
+      title: "Travel App",
       tech: [SiReact, SiHtml5, SiCss3],
-      link: "https://esada-sabic.vercel.app",
+      link: "https://travel-app-liard-nine.vercel.app/",
       cover: "/project3.PNG",
       background: "bg-green-500",
     },
     {
-      title: " Project 4",
+      title: "Duolingo Clone",
       tech: [SiNextdotjs, SiTypescript, SiReact, SiTailwindcss],
-      link: "https://jotion-dusky-gamma.vercel.app/",
-      cover: "/project4.PNG",
+      link: "https://duolingo-clone-orcin.vercel.app/",
+      cover: "/duolingo-clone.png",
       background: "bg-yellow-500",
     },
   ];
@@ -62,7 +63,7 @@ export default function Project() {
               >
                 <DirectionAwareHover
                   imageUrl={project.cover}
-                  className="w-full space-y-5 cursor-pointer"
+                  className="w-full space-y-5 cursor-pointer h-60"
                 >
                   <div className="space-y-5">
                     <h1 className="text-2xl font-bold">{project.title}</h1>
